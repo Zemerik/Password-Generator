@@ -1,16 +1,17 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #d00808;
+    background-color: #000000;
     margin: 0;
     padding: 0;
+    color: #fff;
 }
 
 .container {
     max-width: 400px;
     margin: 0 auto;
     padding: 20px;
-    background-color: rgb(21, 237, 21);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: rgb(0, 0, 0);
+    box-shadow: #fff;
     border-radius: 5px;
     text-align: center;
 }
@@ -39,6 +40,7 @@ input[type="text"] {
     padding: 5px;
     margin-top: 5px;
     text-align: center;
+    border-radius: 25px;
 }
 
 button {
@@ -58,6 +60,8 @@ button:hover {
 .output {
     margin-top: 20px;
     font-size: 16px;
-    color: #eb1a1a;
+    color: #000000;
 }
+
+
 
